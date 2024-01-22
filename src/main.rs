@@ -8,7 +8,7 @@ fn main() {
     // Parse the command line arguments
     // ---
 
-    let (args, _rest) = opts! {
+    let (args, _) = opts! {
         synopsis "A simple autoclicker program for the command line. (x11)";
         opt mouse_x:Option<i32>,
             desc:"Cursor x position. (default: Current position)",
