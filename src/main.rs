@@ -27,7 +27,8 @@ fn main() {
             desc:"Always move the cursor back to given coordinates before clicking. (Needs either a limit or the flag --force)";
         opt force:bool, desc:"Force run even with potentially bad options.";
         opt verbose:bool=false, desc:"Print the location of each click.";
-    }.parse_or_exit();
+    }
+    .parse_or_exit();
 
     
     // ---
